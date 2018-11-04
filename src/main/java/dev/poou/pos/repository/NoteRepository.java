@@ -1,11 +1,12 @@
-package com.example.easynotes.repository;
+package dev.poou.pos.repository;
 
-import com.example.easynotes.model.Note;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
+import dev.poou.pos.model.Note;
+
 /**
- * Created by rajeevkumarsingh on 27/06/17.
+ * Created by JPoou.
  */
 
 @Repository

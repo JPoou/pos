@@ -4,12 +4,12 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.example</groupId>
-	<artifactId>pos</artifactId>
+	<artifactId>easy-notes</artifactId>
 	<version>1.0.0</version>
 	<packaging>jar</packaging>
 
-	<name>pos</name>
-	<description>Rest API for a Simple Sales Taking Application</description>
+	<name>easy-notes</name>
+	<description>Rest API for a Simple Note Taking Application</description>
 
 	<parent>
 		<groupId>org.springframework.boot</groupId>
@@ -48,11 +48,6 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
-		</dependency>
-		<dependency>
-	        <groupId>javax.xml.bind</groupId>
-	        <artifactId>jaxb-api</artifactId>
-	        <version>2.3.0</version>
 		</dependency>
 	</dependencies>
 
