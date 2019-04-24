@@ -9,7 +9,7 @@
 	<packaging>jar</packaging>
 
 	<name>pos</name>
-	<description>Rest API for a Simple Sales Taking Application</description>
+	<description>Rest API</description>
 
 	<parent>
 		<groupId>org.springframework.boot</groupId>
