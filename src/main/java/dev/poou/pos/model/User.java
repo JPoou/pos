@@ -43,8 +43,8 @@ public class User {
 	@NotBlank
 	private String email;
 
-	@NotBlank
-	private String date;
+	@Temporal(TemporalType.DATE)
+	private Date date;
 
 	@NotBlank
 	private String code;
@@ -97,11 +97,11 @@ public class User {
 		this.email = email;
 	}
 
-	public String getDate() {
+	public Date getDate() {
 		return date;
 	}
 
-	public void setDate(String date) {
+	public void setDate(Date date) {
 		this.date = date;
 	}
 

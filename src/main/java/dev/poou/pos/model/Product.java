@@ -30,15 +30,16 @@ public class Product {
 	private Long id;
 	
 	@NotBlank
-	private String name;
-	@NotBlank
-	private int quantity;
-	@NotBlank
-	private int categoryId;
-	@NotBlank
 	private String code;
+	
 	@NotBlank
-	private Long imageId;
+	private String name;
+	
+	@NotBlank
+	private String quantity;
+
+	@NotBlank
+	private String image;
 	
 	@Column(nullable = false, updatable = false)
 	@Temporal(TemporalType.TIMESTAMP)
@@ -66,22 +67,14 @@ public class Product {
 		this.name = name;
 	}
 	
-	public int getQuantity() {
+	public String getQuantity() {
 		return quantity;
 	}
 	
-	public void setQuantity(int quantity) {
+	public void setQuantity(String quantity) {
 		this.quantity = quantity;
 	}
-	
-	public int getCategoryId() {
-		return categoryId;
-	}
-	
-	public void setCategoryId(int categoryId) {
-		this.categoryId = categoryId;
-	}
-	
+		
 	public String getCode() {
 		return code;
 	}
@@ -90,12 +83,12 @@ public class Product {
 		this.code = code;
 	}
 	
-	public Long getImageId() {
-		return imageId;
+	public String getImage() {
+		return image;
 	}
 	
-	public void setImageId(Long imageId) {
-		this.imageId = imageId;
+	public void setImage(String image) {
+		this.image = image;
 	}
 	
 	public Date getCreatedAt() {
